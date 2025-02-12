@@ -60,6 +60,20 @@ color: cornflowerblue;
     border: 10px;
     transition: 2s;
 }
+.GRATIANO{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(27, 134, 180);    
+}
+
+.GRATIANO:hover{
+    text-shadow: 10px 10px 20px rgb(22, 177, 22);
+    background-color: rgb(20, 220, 113);
+    color: rgb(159, 73, 156);
+    padding: 10px;
+    border: 10px;
+    transition: 2s;
+}
+
 .speech{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
