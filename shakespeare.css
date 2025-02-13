@@ -1,57 +1,70 @@
 .ANTONIO{
 font-family: 'Times New Roman', Times, serif;
 color: darkgray;
+size: 5px;
 }
+
+.SALARINO{
+font-family: 'Times New Roman', Times, serif;
+color: aquamarine;
+size: 5px;
+}
+.SALANIO{
+    font-family: 'Times New Roman', Times, serif;
+    color: chocolate;
+    size: 5px;
+}
+.BASSANIO{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkcyan;
+    size: 5px;
+}
+.LORENZO{
+    font-family: 'Times New Roman', Times, serif;
+    color: cornflowerblue;
+    size: 5px;
+}
+
 .ANTONIO:hover{
     text-shadow: 10px 10px 20px rgb(25, 82, 82);
     background-color: blueviolet;
+    filter: blur(2px);
     color: aqua;
     padding: 10px;
     border: 10px;
     transition: 2s;
     
 }
-.SALARINO{
-font-family: 'Times New Roman', Times, serif;
-color: aquamarine;
-}
 .SALARINO:hover{
     text-shadow: 10px 10px 20px rgb(36, 4, 59);
     background-color: aquamarine;
+    filter: blur(2px);
     color: brown;
     padding: 10px;
     border: 10px;
     transition: 2s;
 }
-
-.SALANIO{
-font-family: 'Times New Roman', Times, serif;
-color: chocolate;
-}
 .SALANIO:hover{
     text-shadow: 10px 10px 20px rgb(88, 17, 32);
     background-color: goldenrod;
+    filter: blur(2px);
     color: bisque;
     padding: 10px;
     border: 10px;
     transition: 2s;
 }
-.BASSANIO{
-font-family: 'Times New Roman', Times, serif;
-color: darkcyan;
-}
+
 .BASSANIO:hover{
     text-shadow: 10px 10px 20px rgb(129, 170, 26);
     background-color: chocolate;
+    filter: blur(1px);
     color: antiquewhite;
     padding: 10px;
     border: 10px;
     transition: 2s;
+
 }
-.LORENZO{
-font-family: 'Times New Roman', Times, serif;
-color: cornflowerblue;
-}
+
 .LORENZO:hover{
     text-shadow: 10px 10px 20px rgb(22, 177, 22);
     background-color: crimson;
@@ -62,16 +75,20 @@ color: cornflowerblue;
 }
 .GRATIANO{
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(27, 134, 180);    
+    color: rgb(27, 134, 180); 
+    filter: blur(2px); 
+    size: 5px;  
 }
 
 .GRATIANO:hover{
     text-shadow: 10px 10px 20px rgb(22, 177, 22);
+    filter: blur(2px);
     background-color: rgb(20, 220, 113);
     color: rgb(159, 73, 156);
     padding: 10px;
     border: 10px;
     transition: 2s;
+    
 }
 
 .speech{
@@ -79,13 +96,14 @@ color: cornflowerblue;
 
 }
 .Stagedirection{
-    background-color: black;
-    color: aliceblue;
+    background-color: rgb(136, 241, 91);
+    color: rgb(1, 8, 14);
     
 }
 .Stagedirection:hover{
     background-color: cadetblue;
     color: beige;
+    filter: blur(1px);
 }
 .table{
     border: 1;
@@ -93,6 +111,7 @@ color: cornflowerblue;
     text-align: center;
     margin: 50px;
     padding: 20px;
+    
 }
 .table th{
     border: 2;
@@ -111,6 +130,13 @@ color: cornflowerblue;
     margin: 50px;
     padding: 15px;
 
+}
+tr:nth-child(even){
+    background-color: rgb(32, 92, 8);
+    
+}
+tr:nth-child(odd){
+    background-color: rgb(74, 14, 63);
 }
 .nav{
     background-color: black;
