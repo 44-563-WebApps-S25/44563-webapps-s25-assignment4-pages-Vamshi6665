@@ -58,7 +58,7 @@ size: 5px;
     text-shadow: 10px 10px 20px rgb(129, 170, 26);
     background-color: chocolate;
     filter: blur(1px);
-    color: antiquewhite;
+    color: rgb(107, 64, 9);
     padding: 10px;
     border: 10px;
     transition: 2s;
